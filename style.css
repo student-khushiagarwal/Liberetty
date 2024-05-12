@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #b3b3bc;
+}
+
+.inner{
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.navbar{
+    background-color: #f8f6f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style-type: none;
+    color: #040404;
+    font-size: 15px;
+}
+.cart{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navbar h1{
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.main{
+    background-color: #fbc384;
+    padding: 130px;
+}
+
+.main-text {
+    position: relative;
+    left:20%;
+    font-size: 34px;
+    font-weight: lighter;
+    color:#453f3d;
+}
+
+.new-models {
+    background-color: #1a9764;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+    color: #362b1e;
+    font-size: 15px;
+    position: absolute;
+    top: 430px;
+    left: 200px;
+    transform: rotate(335deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.triangle{
+    background-image: url(/task2/triangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 60px;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+
+.watch{
+    background-image: url(/task2/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+     border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 440px;
+    right: 350px;
+}
+.men{
+    background-image: url(/task2/men.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 290px;
+    position: absolute;
+    top: 170px;
+    right: 160px;
+}
+
+.design-left1{
+    background-image: url(/task2/design-left.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 440px;
+    position: absolute;
+    top: 530px;
+    left: 80px;
+}
+
+.design-right{
+    background-image: url(/task2/design-right.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 180px;
+    position: absolute;
+    top: 420px;
+    right: 80px;
+}
+
+.lower{
+    background-color: #f8f6f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    margin: 10px;
+    width: 250px;
+    /* height: 250px; */
+    padding: 20px 10px;
+    margin-top: 40px;
+    /* background-color: #b3b3bc; */
+}
+
+.type{
+    display: flex;
+    justify-content: space-between;
+}
+.sr{
+    font-size: 28px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.hr{
+    margin-top: 10px;
+    width: 60px;
+    border:0.5px solid #b3b3bc
+}
+
+.box1-part2 p{
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+#box2{
+    /* padding: 30px 0px; */
+    font-size: 20px;
+    color: #976f50;
+}
+
+.box2-chair{
+    background-image: url(/task2/box2_chair.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+#box3{
+    font-size: 20px;
+    color: #1a9764;
+}
+
+.box3-chair{
+    background-image: url(/task2/box3_chair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 190px;
+    margin-top: 30px;
+}
+
+#box4{
+    font-size: 20px;
+    color:#655650;
+}
+
+.box4-chair{
+    background-image: url(/task2/box4_chair.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    margin-top: 30px;
+}
+
+@media (min-width:340px) and (max-width:450px) {
+    .menu{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .main{
+        padding: 50px 20px;
+    }
+    .main-text{
+        font-size: 15px;
+        left: 20px;
+        text-align: left;
+    }
+    .lower{
+        flex-direction: column;
+        align-items: center;
+    }
+    .men{
+        display: none;
+    }
+    .triangle{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .watch{
+        display: none;
+    }
+    .design-left1{
+        display: none;
+    }
+    .design-right{
+        display: none;
+    }
+    .new-models{
+        display: none;
+    }
+}
